@@ -6,7 +6,8 @@
 	<title>Template</title>
 	<meta name="viewport" content="initial-scale=1"/>
 	<link rel="stylesheet" media="screen" href="css/screen.css" >
-	<script src="js/app.js"></script>
+	<script src="js/jquery.js"></script>
+	<script src="js/common.js"></script>
 </head>
 <body>
 
@@ -80,13 +81,198 @@
 	<div class="l">
 		<!-- begin l-col1  -->
 		<div class="l-col1">
-			sidebar
+			<!-- begin b  -->
+			<div class="b">
+				<h2 class="b__head">Продукция</h2>
+				<div class="b__in">
+					<ul class="list">
+						<li><a class="is-active" href="#"><i></i>Каталог продукции</a></li>
+						<li><a href="#"><i></i>Масла и смеси</a></li>
+						<li><a href="#"><i></i>Сыры и сырные продукты</a></li>
+						<li><a href="#"><i></i>Молочная продукция</a></li>
+						<li><a href="#"><i></i>Мясная продукция</a></li>
+						<li><a href="#"><i></i>Промышленная продукция</a></li>
+					</ul>
+				</div>
+			</div>
+			<!-- end b -->
+
+			<!-- begin b  -->
+			<div class="b">
+				<div class="b__in">
+					<div class="youchoosed">
+						<strong>Вы выбрали 2 продукта</strong>
+						<a href="#" class="youchoosed__cancel">отменить выбор</a>
+						<div class="button">Рассчитать стоимость</div>
+					</div>
+				</div>
+				<div class="b__bottom">
+					<div class="print">
+						<div class="print__link"><i></i>печать выбранных позиций<div class="print__droparr">
+							<div class="print__drop">
+								<i></i>
+								<ul>
+									<li><a href="#">Экспорт в Excel </a></li>
+									<li><a href="#">Экспорт в PDF </a></li>
+								</ul>
+							</div>
+
+						</div></div>
+						
+					</div>
+				</div>
+			</div>
+			<!-- end b -->
+
+			<!-- begin b  -->
+			<div class="b">
+				<h2 class="b__head">Критерии сортировки</h2>
+					<!-- begin sproduct -->
+					<div class="sproduct is-opened">
+						<div class="sproduct__title">Продукт <i></i></div>
+						<div class="sproduct__content">
+							<ul class="sproduct__list">
+								<li><strong>Спред</strong><span>132</span></li>
+								<li><strong>Топленое масло</strong><span>12</span></li>
+								<li><strong>Сыр</strong><span>1</span></li>
+								<li><strong>Сырный продукт</strong><span>12</span></li>
+								<li><strong>Плавленый сыр</strong><span>12</span></li>
+								<li class="sproduct__more"><strong>Плавленый сырный продукт</strong><span>12</span></li>
+								<li class="sproduct__more"><strong>Мясная продукция</strong><span>12</span></li>
+								<li class="sproduct__more"><strong>Мягкие сыры</strong><span>12</span></li>
+								<li class="sproduct__more"><strong>Сливки</strong><span>12</span></li>
+								<li class="sproduct__more"><strong>Цельномолочная продукция</strong><span>12</span></li>
+								<li class="sproduct__more"><strong>Сухая сыворотка</strong><span>12</span></li>
+							</ul>
+							<div class="sproduct__showmore">
+								<div class="sproduct__showmorecontent"><div>Показать еще <strong>+5</strong></div></div>
+							</div>
+						</div>
+					</div>
+					<!-- end sproduct -->
+					<!-- begin sproduct -->
+					<div class="sproduct">
+						<div class="sproduct__title">Общая жирность, % <i></i></div>
+						<div class="sproduct__content">
+							<ul class="sproduct__list">
+								<li><strong>Спред</strong><span>132</span></li>
+								<li><strong>Топленое масло</strong><span>12</span></li>
+								<li><strong>Сыр</strong><span>1</span></li>
+								<li><strong>Сырный продукт</strong><span>12</span></li>
+								<li><strong>Плавленый сыр</strong><span>12</span></li>
+								<li class="sproduct__more"><strong>Плавленый сырный продукт</strong><span>12</span></li>
+								<li class="sproduct__more"><strong>Мясная продукция</strong><span>12</span></li>
+								<li class="sproduct__more"><strong>Мягкие сыры</strong><span>12</span></li>
+								<li class="sproduct__more"><strong>Сливки</strong><span>12</span></li>
+								<li class="sproduct__more"><strong>Цельномолочная продукция</strong><span>12</span></li>
+								<li class="sproduct__more"><strong>Сухая сыворотка</strong><span>12</span></li>
+							</ul>
+							<div class="sproduct__showmore">
+								<div class="sproduct__showmorecontent"><div>Показать еще <strong>+5</strong></div></div>
+							</div>
+						</div>
+					</div>
+					<!-- end sproduct -->
+			</div>
+			<!-- end b -->
 		</div>
 		<!-- end l-col1 -->
 
 		<!-- begin l-col2  -->
 		<div class="l-col2">
-			mainpage
+			<h1 class="h1">Каталог продукции</h1>
+			<div class="filters">
+				<div class="filter"><i class="filter__del"></i>Сливочное масло и спред</div>
+				<div class="filters__clear">Убрать все фильтры</div>
+			</div>
+			
+
+			<div class="group">
+				<div class="group__title">Показать группу товаров:
+					<a href='#'>Всетовары</a> <a href='#'>Монолит</a> <a href='#'>Фасовка</a>
+				</div>
+			</div>
+
+			<!-- begin product  -->
+			<div class="product">
+				<div class="product__top">
+					<h2 class="product__title">Масло сливочное 73%</h2>
+					<div class="product__info">
+						Общая жирность: 82,5%<br>
+Содержание молочного жира: 82,5%
+					</div>
+					<ul class="product__nav">
+						<li class="product__navmonolit"><a class="is-active" href="#"><i></i><span>Монолит</span></a></li>
+						<li class="product__navmonolit"><a href="#"><i></i><span>Фасовка</span></a></li>
+					</ul>
+				</div>
+				<div class="product__content">
+					<div class="weight">
+						<div class="weight__label">Выберите вес</div>
+						<ul>
+							<li><a href="#">0,1кг</a></li>
+							<li><a href="#">0,2кг</a></li>
+							<li><a class="is-active" href="#">0,3кг</a></li>
+						</ul>
+					</div>
+					
+					<!-- begin product__items  -->
+					<div class="product__items">
+						<!-- begin pitem  -->
+						<div class="pitem">
+							<div class="pitem__pic"><img src="http://placedog.com/175/116" alt=""></div>
+							<div class="pitem__choose">
+								<label ><input type="checkbox" name="" id="">Выбрать</label>
+							</div>
+							<h3 class="pitem__title"><a href='#'>Масло сливочное крестьянское ТМ «Тульчинка», 73%</a></h3>
+						</div>
+						<!-- end pitem -->
+						<!-- begin pitem  -->
+						<div class="pitem">
+							<div class="pitem__pic"><img src="http://placedog.com/175/116" alt=""></div>
+							<div class="pitem__choose">
+								<label ><input type="checkbox" name="" id="">Выбрать</label>
+							</div>
+							<h3 class="pitem__title"><a href='#'>Масло сливочное крестьянское ТМ «Тульчинка», 73%</a></h3>
+						</div>
+						<!-- end pitem -->
+					</div>
+					<!-- end product__items -->
+
+				</div>
+			</div>
+			<!-- end product -->
+
+
+			<!-- begin product  -->
+			<div class="product">
+				<div class="product__top">
+					<h2 class="product__title">Масло сливочное 73%</h2>
+					<div class="product__info">
+						Общая жирность: 82,5%<br>
+Содержание молочного жира: 82,5%
+					</div>
+					<ul class="product__nav">
+						<li class="product__navmonolit"><a class="is-active" href="#"><i></i><span>Монолит</span></a></li>
+						<li class="product__navmonolit"><a href="#"><i></i><span>Фасовка</span></a></li>
+					</ul>
+				</div>
+				<div class="product__content">
+					<div class="weight">
+						<div class="weight__label">Выберите вес</div>
+						<ul>
+							<li><a href="#">0,1кг</a></li>
+							<li><a href="#">0,2кг</a></li>
+							<li><a class="is-active" href="#">0,3кг</a></li>
+						</ul>
+					</div>
+					
+	
+
+				</div>
+			</div>
+			<!-- end product -->
+
 		</div>
 		<!-- end l-col2 -->
 	</div>
