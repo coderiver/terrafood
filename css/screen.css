@@ -14,8 +14,8 @@ a img, fieldset { border: none; }
 .out { width: 940px; margin: 0 auto; }
 
 .l { width: 100%; display: inline-block; }
-.l .l-col1 { float: left; width: 20%; }
-.l .l-col2 { float: right; width: 70%; }
+.l .l-col1 { float: left; width: 31.9%; }
+.l .l-col2 { float: right; width: 65.9%; }
 
 body { background: url(../img/bg.png) no-repeat 50% 84px; }
 
@@ -62,7 +62,7 @@ body { background: url(../img/bg.png) no-repeat 50% 84px; }
 .lang .list a:first-child { margin: 0; }
 .lang:hover .list { display: block; }
 
-.footer { border-top: 5px solid #a86e9f; padding: 12px 0; }
+.footer { border-top: 5px solid #a86e9f; padding: 12px 0; margin-top: 50px; }
 .footer .footer__logo { float: left; background: url('../img/icons-s9298430d3a.png') 0 -63px no-repeat; width: 121px; height: 28px; font: 0/0 a; text-shadow: none; color: transparent; }
 .footer .footer__bot { padding-top: 6px; border-top: 1px dotted black; *zoom: 1; }
 .footer .footer__bot:before, .footer .footer__bot:after { content: " "; display: table; }
