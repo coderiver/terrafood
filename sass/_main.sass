@@ -1,2 +1,197 @@
 // Normally mainpage styles
- 
+.breadcrumb
+	padding: 18px 0
+	border: 1px dashed #b7b7b7
+	border-width: 1px 0
+	margin-bottom: 40px
+	li
+		position: relative
+		display: inline-block
+		margin-left: 35px
+		font-size: 16px
+		line-height: 1
+		padding-left: 10px
+		&:before
+			position: absolute
+			top: 50%
+			margin-top: -4px
+			left: 0
+			content: ""
+			+s(arr_bc)
+		&:first-child
+			margin-left: 0
+			
+
+
+.title
+	position: relative
+	font-size: 21px
+	color: #000
+	line-height: 1
+	font-weight: bold
+	text-transform: uppercase
+	margin-bottom: 20px
+	b
+		display: inline-block
+		padding-bottom: 8px
+		border-bottom: 3px solid #7b246e
+		position: relative
+		z-index: 10
+	&:before
+		position: absolute
+		bottom: 0
+		left: 0
+		height: 3px
+		width: 100%
+		background: #e3e3e3
+		content: ""
+.catalog
+	font-size: 16px
+	color: #333
+	.catalog__text
+		margin-bottom: 20px
+	.catalog__item
+		margin-top: 35px
+		&:first-child
+			margin-top: 0
+
+.list_mod
+	li
+		position: relative
+		padding-left: 32px
+		margin-bottom: 0.4em
+		&:before
+			position: absolute
+			top: 7px
+			left: 17px
+			content: ""
+			+s(triangle)
+
+
+
+
+
+.tabs
+	margin-bottom: 20px
+	.tabs__nav
+		position: relative
+		margin-bottom: 17px
+		&:before
+			position: absolute
+			bottom: 0
+			left: 0
+			width: 100%
+			height: 3px
+			background: #ececec
+			content: ""
+		li
+			display: inline-block
+			font-size: 14px
+			text-transform: uppercase
+			background-color: #fff
+			border: 3px solid transparent
+			+box-sizing(border-box)
+			width: 31%
+			text-align: center
+			&:hover, &.is-active
+				position: relative
+				color: #000
+				border: 3px solid #ececec
+				border-width: 3px 3px 0
+				+border-radius(7px 7px 0 0)
+				z-index: 10
+				&:after
+					position: absolute
+					right: -4px
+					bottom: 0
+					content: ""
+					+s(tabs_border)
+				&:before
+					position: absolute
+					left: -4px
+					bottom: 0
+					content: ""
+					+rotate(-90)
+					+s(tabs_border)
+				&:first-child
+					&:before
+						content: none
+				a
+					+border-radius(7px 7px 0 0)
+					background: #fff
+					color: #000
+					padding-bottom: 3px
+			a
+				display: block
+				// padding: 0 13px
+				height: 37px
+				line-height: 37px
+				text-decoration: none
+	.tabs__content
+		.tabs__block
+			display: none
+			&.is-active
+				display: block
+
+
+
+
+.products-list
+	.products-list__heading
+		position: relative
+		line-height: 1
+		padding-bottom: 9px
+		border-bottom: 1px dotted #ececec
+		margin-bottom: 10px
+	.products-list__title
+		font-size: 18px
+	.products-list__all
+		position: absolute
+		right: 0
+		top: 50%
+		margin-top: -6px
+		font-size: 12px
+		text-transform: uppercase
+	.products-list__content
+		+clr
+		li
+			float: left
+			width: 140px
+			text-align: center
+			margin-left: 19px
+			&:first-child
+				margin-left: 0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
