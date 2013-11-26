@@ -1,7 +1,14 @@
 // default layout
-.out
+
+html, body
+	height: 100%
+
+
+
+
+.out,.footer
 	width: 940px 
-	margin: 0 auto 
+	margin: 0 auto
 .l
 	width: 100%
 	display: inline-block
@@ -11,3 +18,13 @@
 	.l-col2
 		float: right
 		width: 65.9%
+		
+//footer stick
+$footerheight: 136px
+.out
+	min-height: 100%
+	height: auto !important
+	height: 100%
+	margin: 0 auto -#{$footerheight} auto
+.footer, .out__push
+	height: $footerheight

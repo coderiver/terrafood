@@ -1,5 +1,6 @@
 .h1
-	font-weight: bold
+	+b
+	font-weight: normal
 	font-size: 32px 
 	color: #000
 	padding-top: 5px  
@@ -72,6 +73,8 @@
 	margin-bottom: 13px 
 	.weight__label
 		padding-left: 8px 
+		display: inline
+		zoom: 1
 		display: inline-block
 		margin-right: 10px 
 		font-size: 16px 
@@ -81,10 +84,16 @@
 	ul
 		list-style: none
 		font-size: 0
+		display: inline
+		zoom: 1
 		display: inline-block
 		li
+			display: inline
+		zoom: 1
 			display: inline-block
 		a
+			display: inline
+			zoom: 1
 			display: inline-block
 			width: 46px 
 			text-align: center
@@ -103,7 +112,7 @@
 .pitem
 	width: 32%
 	float: left
-	margin: 0 1%  
+	margin: 0 1% 15px 0
 	text-align: center
 	.pitem__title
 		font-size: 16px 
@@ -117,8 +126,11 @@
 		border: 2px solid #F2F2F2
 		border-radius: 5px
 		text-align: center
-		height: 112px 
-		line-height: 112 
+		height: 116px 
+		line-height: 116px
+		img
+			margin: auto
+			vertical-align: middle
 	&:hover
 		.pitem__title
 			color: #333333 
@@ -157,7 +169,8 @@
 		position: relative
 	.product__title
 		font-size: 21px 
-		font-weight: bold
+		font-weight: normal
+		+b
 		color: #000
 		margin-bottom: 6px  
 	.product__info
