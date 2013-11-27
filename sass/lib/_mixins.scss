@@ -1,14 +1,13 @@
 // responsive example, edit or remove
-$break-small: 500px;
-$break-large: 1180px;
-@mixin r($media) {
-	@if $media == pda {
+$step1: 940px;
+$step2: 600px;
+@mixin r($media:step1) {
+	@if $media == step1 {
 		// narrower than $width
-		@media only screen and (max-width: $break-small) { @content; }
+		@media only screen and (max-width: $step1) { @content; }
 	}
-	@else if $media == wide {
-		// wider than $width
-		@media only screen and (min-width: $break-large) { @content; }
+	@if $media == step2 {
+		@media only screen and (max-width: $step) { @content; }
 	}
 }
 // retina bg
