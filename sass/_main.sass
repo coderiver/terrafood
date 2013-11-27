@@ -7,7 +7,7 @@
 	li
 		position: relative
 		display: inline-block
-		margin-left: 35px
+		margin-left: 10.5%
 		font-size: 16px
 		line-height: 1
 		padding-left: 10px
@@ -20,8 +20,10 @@
 			+s(arr_bc)
 		&:first-child
 			margin-left: 0
-
-
+	a
+		text-decoration: underline
+		&:hover
+			text-decoration: none
 
 .title
 	position: relative
@@ -45,15 +47,6 @@
 		width: 100%
 		background: #e3e3e3
 		content: ""
-.catalog
-	font-size: 16px
-	color: #333
-	.catalog__text
-		margin-bottom: 20px
-	.catalog__item
-		margin-top: 35px
-		&:first-child
-			margin-top: 0
 
 .list_mod
 	li
@@ -66,10 +59,6 @@
 			left: 17px
 			content: ""
 			+s(triangle)
-
-
-
-
 
 .tabs
 	margin-bottom: 20px
@@ -133,34 +122,46 @@
 			&.is-active
 				display: block
 
-
-
-
-.products-list
-	.products-list__heading
+.production
+	.production__heading
 		position: relative
 		line-height: 1
 		padding-bottom: 9px
 		border-bottom: 1px dotted #ececec
 		margin-bottom: 10px
-	.products-list__title
+	.production__title
 		font-size: 18px
-	.products-list__all
+	.production__all
 		position: absolute
 		right: 0
 		top: 50%
 		margin-top: -6px
 		font-size: 12px
 		text-transform: uppercase
-	.products-list__content
+	.production__content
 		+clr
 		li
 			float: left
-			width: 140px
+			width: 22.5%
 			text-align: center
-			margin-left: 19px
+			margin-left: 3.3%
 			&:first-child
 				margin-left: 0
+			&:hover
+				a
+					text-decoration: none
+			a
+				display: block
+				height: 100%
+				text-decoration: underline
+			img
+				width: 100%
+				margin-right: auto
+				margin-left: auto
+			p
+				margin-bottom: 0
+				font-size: 16px
+				line-height: 1
 
 .data
 	+clr
@@ -203,7 +204,7 @@
 	.plant__thumb
 		float: left
 		width: 35.5%
-		min-height: 140px
+		min-height: 30px
 		margin-right: 3%
 		+box-sizing(border-box)
 		border: 3px solid #f1f1f1
@@ -230,18 +231,16 @@
 			&:hover
 				text-decoration: underline
 
-
-
 .article
+	font-size: 16px
+	color: #333
 	margin-top: 40px
 	p
-		font-size: 16px
 		margin-bottom: 1em
-
-
-
-
-
+	a
+		text-decoration: underline
+		&:hover
+			text-decoration: none
 
 .navbar
 	border: 1px solid #d7d7d7
@@ -287,11 +286,6 @@
 		text-decoration: none
 		color: #000
 
-
-
-
-
-
 .b_alt
 	.b__head
 		position: relative
@@ -319,7 +313,7 @@
 		float: left
 		width: 35%
 		margin-right: 3.8%
-		min-height: 90px
+		min-height: 30px
 		background: #ebebeb
 		+border-radius(3px)
 		img
