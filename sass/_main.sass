@@ -20,7 +20,7 @@
 			+s(arr_bc)
 		&:first-child
 			margin-left: 0
-			
+
 
 
 .title
@@ -161,6 +161,194 @@
 			margin-left: 19px
 			&:first-child
 				margin-left: 0
+
+.data
+	+clr
+	padding-bottom: 7px
+	margin-bottom: 7px
+	border-bottom: 1px dashed #ccc
+	.data__item
+		line-height: 1
+		float: left
+		width: 32.2%
+		margin-left: 1.6%
+		&:first-child
+			margin-left: 0
+		p
+			font-size: 15px
+			margin-bottom: 0
+	.data__number
+		text-transform: uppercase
+		font-size: 11px
+		color: #666
+		strong
+			font-size: 28px
+			font-weight: bold
+			color: #000
+
+.plant
+	.plant__item
+		margin-top: 25px
+		+clr
+		p
+			font-size: 16px
+			color: #333
+			margin-bottom: 0
+	.plant__link
+		text-transform: uppercase
+		font-size: 13px
+		text-decoration: underline
+		&:hover
+			text-decoration: none
+	.plant__thumb
+		float: left
+		width: 35.5%
+		min-height: 140px
+		margin-right: 3%
+		+box-sizing(border-box)
+		border: 3px solid #f1f1f1
+		+box-shadow(inset 0 0 0 2px #fff)
+		img
+			position: relative
+			display: block
+			z-index: -1
+			max-width: 100%
+			margin-right: auto
+			margin-left: auto
+		a
+			display: block
+			height: 100%
+	.plant__caption
+		overflow: hidden
+	.plant__title
+		color: #7b246e
+		font-size: 18px
+		font-weight: bold
+		line-height: 1
+		a
+			text-decoration: none
+			&:hover
+				text-decoration: underline
+
+
+
+.article
+	margin-top: 40px
+	p
+		font-size: 16px
+		margin-bottom: 1em
+
+
+
+
+
+
+.navbar
+	border: 1px solid #d7d7d7
+	+box-shadow(0 0 7px rgba(0,1,1,.1))
+	+border-radius(5px)
+	background: #fff
+	margin-bottom: 40px
+	ul
+		+clr
+	li
+		position: relative
+		text-transform: uppercase
+		float: left
+		width: 25%
+		text-align: center
+		line-height: 1
+		font-size: 14px
+		font-weight: bold
+		padding: 16px 0
+		&:before
+			position: absolute
+			bottom: 0
+			left: 50%
+			margin-left: -40px
+			width: 80px
+			height: 5px
+			+border-radius(3px 3px 0 0)
+			background: #a96da0
+			content: ""
+		&:after
+			position: absolute
+			top: 50%
+			margin-top: -15px
+			left: 0
+			background: #d7d7d7
+			width: 1px
+			height: 30px
+			content: ""
+		&:first-child
+			&:after
+				content: none
+	a
+		text-decoration: none
+		color: #000
+
+
+
+
+
+
+.b_alt
+	.b__head
+		position: relative
+		.link
+			position: absolute
+			right: 20px
+			top: 15px
+			font-size: 13px
+			font-weight: normal
+			text-decoration: underline
+			&:hover
+				text-decoration: none
+	.b__bottom
+		padding: 20px 0
+		.button
+			margin: 0 20px
+
+.items
+	li
+		+clr
+		margin-top: 30px
+		&:first-child
+			margin-top: 0
+	.items__thumb
+		float: left
+		width: 35%
+		margin-right: 3.8%
+		min-height: 90px
+		background: #ebebeb
+		+border-radius(3px)
+		img
+			display: block
+			max-width: 100%
+			margin-left: 0
+			margin-right: 0
+			+border-radius(3px)
+		a
+			display: block
+			height: 100%
+	.items__caption
+		overflow: hidden
+		line-height: 1.2
+		p
+			font-size: 14px
+			color: #000
+	.items__title
+		color: #7b246e
+		font-size: 16px
+		font-weight: normal
+		a
+			text-decoration: none
+			&:hover
+				text-decoration: underline
+
+
+
+
 
 
 
