@@ -1,5 +1,5 @@
 $(document).ready(function() {
-
+	$('html').addClass('js');
 
 	$('.sproduct__title').click(function(event) {
 		$(this).parent().toggleClass('is-opened')
@@ -13,4 +13,7 @@ $(document).ready(function() {
 		$(this).addClass('is-active');
 		return false;
 	});
+
+
+	$(".menu_top>ul").tinyNav();
 });

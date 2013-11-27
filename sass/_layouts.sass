@@ -9,15 +9,23 @@ html, body
 .out,.footer
 	width: 940px 
 	margin: 0 auto
+	+r
+		width: 98%
 .l
 	width: 100%
 	display: inline-block
 	.l-col1
 		float: left
 		width: 31.9%
+		+r(step2)
+			float: none
+			width: auto
 	.l-col2
 		float: right
 		width: 65.9%
+		+r(step2)
+			float: none
+			width: auto
 		
 //footer stick
 $footerheight: 116px
@@ -26,7 +34,15 @@ $footerheight: 116px
 	height: auto !important
 	height: 100%
 	margin: 0 auto -#{$footerheight} auto
+	+r
+		margin: 0 auto
+		height: auto  
+		min-height: 0 
 .footer, .out__push
 	height: $footerheight
+	+r
+		height: auto
 .out__push
 	height: $footerheight + 30px 
+	+r
+		display: none

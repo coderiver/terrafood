@@ -1,13 +1,17 @@
 // responsive example, edit or remove
 $step1: 940px;
-$step2: 600px;
+$step2: 760px;
+$step3: 550px;
 @mixin r($media:step1) {
 	@if $media == step1 {
 		// narrower than $width
 		@media only screen and (max-width: $step1) { @content; }
 	}
 	@if $media == step2 {
-		@media only screen and (max-width: $step) { @content; }
+		@media only screen and (max-width: $step2) { @content; }
+	}
+	@if $media == step3 {
+		@media only screen and (max-width: $step3) { @content; }
 	}
 }
 // retina bg
