@@ -31,6 +31,8 @@
 	font-weight: bold
 	text-transform: uppercase
 	margin-bottom: 20px
+	+r(step2)
+		font-size: 13px 
 	b
 		display: inline-block
 		padding-bottom: 8px
@@ -45,6 +47,10 @@
 		width: 100%
 		background: #e3e3e3
 		content: ""
+	&.title_alt
+		text-transform: none 
+		+b
+		font-weight: normal
 .catalog
 	font-size: 16px
 	color: #333
