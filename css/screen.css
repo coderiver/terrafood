@@ -59,8 +59,10 @@ body { background: url(../img/bg.png) no-repeat 50% 84px; }
 
 .menu-up { height: 49px; background: #4f1746; border-radius: 0 0 5px 5px; margin: 0 0 30px; border-top: 1px solid #905d89; }
 
-@media screen and (max-width: 600px) { .js .tinynav { display: block; }
-  .js #nav { display: none; } }
+.tinynav { display: none; width: 50%; position: relative; left: 20px; top: 15px; }
+
+@media screen and (max-width: 900px) { .js .tinynav { display: block; }
+  .js .globalnav { display: none; } }
 .menu-top { margin: 0 120px 0 5px; padding: 0 1px 0 0; position: relative; z-index: 100; }
 .menu-top a { text-decoration: none; }
 .menu-top ul, .menu-top li { margin: 0; padding: 0; background: none; }
@@ -228,6 +230,7 @@ body { background: url(../img/bg.png) no-repeat 50% 84px; }
 .weight ul a.is-active { background: #7a276d; border-color: #7a276d; color: white; }
 
 .pitem { width: 32%; float: left; margin: 0 1% 15px 0; text-align: center; }
+@media only screen and (max-width: 760px) { .pitem { width: 100%; margin: 0; } }
 .pitem .pitem__title { font-size: 16px; text-decoration: none; font-weight: normal; line-height: 1.1; margin: 0 10px; }
 .pitem .pitem__title a { text-decoration: none; }
 .pitem .pitem__pic { border: 2px solid #f2f2f2; border-radius: 5px; text-align: center; height: 116px; line-height: 116px; }
@@ -244,6 +247,7 @@ body { background: url(../img/bg.png) no-repeat 50% 84px; }
 .product .product__title { font-size: 21px; font-weight: normal; font-family: "Myrbold", arial, sans-serif; color: black; margin-bottom: 6px; }
 .product .product__info { font-size: 16px; color: #333333; line-height: 1.2; }
 .product .product__nav { position: absolute; bottom: 0; left: 0; border-bottom: 3px solid #ececec; right: 0; list-style: none; text-align: right; padding-right: 20px; }
+@media only screen and (max-width: 760px) { .product .product__nav { position: relative; text-align: left; } }
 .product .product__nav li { display: inline-block; }
 .product .product__nav li i { display: inline-block; }
 .product .product__nav .product__navmonolit i { background: url('../img/icons-sf35e5f5f8e.png') 0 -494px no-repeat; width: 30px; height: 28px; }

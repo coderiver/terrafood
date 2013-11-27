@@ -1,4 +1,6 @@
 $(document).ready(function() {
+	$(".globalnav").tinyNav();
+
 	$('html').addClass('js');
 
 	$('.sproduct__title').click(function(event) {
@@ -15,5 +17,5 @@ $(document).ready(function() {
 	});
 
 
-	$(".menu_top>ul").tinyNav();
+	
 });
