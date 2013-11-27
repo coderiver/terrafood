@@ -341,8 +341,82 @@
 				text-decoration: underline
 
 
-
-
+.brands
+	margin-top: 30px
+	a
+		text-decoration: underline
+		&:hover
+			text-decoration: none
+	.brands__item
+		padding: 18px
+		margin-top: 20px
+		background: #fff
+		border: 2px solid #f1f1f1
+		+box-sizing(border-box)
+		+border-radius(5px)
+		+clr
+		&:first-child
+			margin-top: 0
+		&:hover, &.is-active
+			border: 2px solid #a96da0
+			.brands__btn-collapse
+				i
+					opacity: 1
+		&.is-active
+			.brands__text
+				display: block
+			.brands__btn-collapse
+				i
+					+rotate(0)
+	.brands__logo
+		float: left
+		width: 22.5%
+		margin-right: 3.5%
+		min-height: 1px
+		img
+			display: block
+			max-width: 100%
+			margin-right: auto
+			margin-left: auto
+		a
+			display: block
+			height: 100%
+	.brands__info
+		overflow: hidden
+		font-size: 16px
+		color: #333
+		line-height: 1.2
+	.brands__topper
+		+clr
+		border-bottom: 1px solid #ececec
+		line-height: 1
+		padding-right: 5px
+		padding-bottom: 10px
+		margin-bottom: 10px
+	.brands__title
+		float: left
+		font-size: 21px
+		font-weight: bold
+	.brands__btn-collapse
+		float: right
+		padding-top: 5px
+		font-size: 13px
+		color: #7b246e
+		text-transform: uppercase
+		i
+			display: inline-block
+			vertical-align: middle
+			margin-left: 5px
+			margin-top: -3px
+			+s(arr-collapse)
+			+rotate(180)
+			opacity: 0.8
+		&:hover
+			cursor: pointer
+	.brands__production
+		margin-bottom: .5em
+	.brands__text
+		display: none
 
 
 
