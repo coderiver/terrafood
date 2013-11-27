@@ -109,11 +109,14 @@
 				background: #7A276D
 				border-color: #7A276D
 				color: #fff
+.product__items
+	font-size: 0 
 .pitem
 	width: 32%
-	float: left
-	margin: 0 1% 15px 0
+	display: inline-block
+	margin: 0 1% 25px 0
 	text-align: center
+	vertical-align: top
 	+r(step2)
 		width: 100%
 		margin: 0 
@@ -166,10 +169,13 @@
 	border-radius: 5px
 	background: #fff
 	margin-bottom: 20px  
+
 	.product__top
 		padding: 18px 
 		padding-bottom: 28px 
 		position: relative
+		+r(step2)
+			padding-bottom: 0
 	.product__title
 		font-size: 21px 
 		font-weight: normal
