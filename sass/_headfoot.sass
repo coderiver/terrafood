@@ -193,6 +193,7 @@ body
 	float: right
 	border-left: 1px solid #73446c
 	margin: 12px 15px 0
+	font-size: 13px 
 	.lang__arr
 		+s(lang__arr)
 		display: inline-block
@@ -241,7 +242,7 @@ body
 				&:before
 					position: absolute
 					left: -2px 
-					top: 8px
+					top: 0px
 					+s(lang)
 					content: ' '
 			&:first-child
@@ -251,6 +252,8 @@ body
 
 
 .footer
+	+r(step2)
+	margin-top: 20px 
 	.footer__in
 		border-top: 5px solid #A86E9F 
 		padding: 12px 0

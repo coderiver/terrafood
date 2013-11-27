@@ -79,7 +79,7 @@ body { background: url(../img/bg.png) no-repeat 50% 84px; }
 .menu-top .sub img { border: 3px solid #cfcfcf; }
 .menu-top li:hover .sub { display: block; }
 
-.lang { position: relative; float: right; border-left: 1px solid #73446c; margin: 12px 15px 0; }
+.lang { position: relative; float: right; border-left: 1px solid #73446c; margin: 12px 15px 0; font-size: 13px; }
 .lang .lang__arr { background: url('../img/icons-s08ac8825e3.png') 0 -681px no-repeat; width: 11px; height: 11px; display: inline-block; margin-left: 7px; vertical-align: middle; position: relative; z-index: 200; top: -2px; }
 .lang:before { position: absolute; left: 14px; top: 2px; content: " "; background: url('../img/icons-s08ac8825e3.png') 0 -329px no-repeat; width: 16px; height: 16px; }
 .lang a { display: inline-block; font-size: 13px; line-height: 13px; text-transform: uppercase; padding: 0 25px 0 45px; color: white; text-decoration: none; }
@@ -87,10 +87,11 @@ body { background: url(../img/bg.png) no-repeat 50% 84px; }
 .lang .cur { padding-top: 3px; vertical-align: middle; }
 .lang .list { position: absolute; display: none; top: -8px; border-radius: 5px; border: 1px solid #d4d4d4; background: white; padding: 10px 19px; box-shadow: 0 2px 2px #cccccc; width: 60px; }
 .lang .list a { display: block; color: black; text-transform: uppercase; padding: 2px 0 2px 25px; margin: 5px 0 0; position: relative; }
-.lang .list a:hover:before { position: absolute; left: -2px; top: 8px; background: url('../img/icons-s08ac8825e3.png') 0 -329px no-repeat; width: 16px; height: 16px; content: " "; }
+.lang .list a:hover:before { position: absolute; left: -2px; top: 0px; background: url('../img/icons-s08ac8825e3.png') 0 -329px no-repeat; width: 16px; height: 16px; content: " "; }
 .lang .list a:first-child { margin: 0; }
 .lang:hover .list { display: block; }
 
+.footer { margin-top: 20px; }
 .footer .footer__in { border-top: 5px solid #a86e9f; padding: 12px 0; }
 .footer .footer__logo { float: left; background: url('../img/icons-s08ac8825e3.png') 0 -94px no-repeat; width: 121px; height: 28px; font: 0/0 a; text-shadow: none; color: transparent; }
 .footer .footer__bot { padding-top: 6px; border-top: 1px dotted black; *zoom: 1; }
