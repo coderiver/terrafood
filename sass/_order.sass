@@ -6,6 +6,9 @@
 		margin-bottom: 1em
 	a
 		text-decoration: none
+	strong
+		font-weight: normal
+		+b
 .purplebutton
 	border: 1px solid #7b236d
 	border-radius: 5px
@@ -57,7 +60,7 @@
 
 
 .field
-	margin-left: 11px 
+	padding-left: 11px 
 	position: relative
 	.field__label
 		display: block
@@ -66,7 +69,7 @@
 		border: 1px solid #CCC 
 		font-size: 14px 
 		color: #333333 
-		width: 100%
+		width: 264px
 		+box-sizing(border-box) 
 		padding: 6px 11px 
 	.field__help
@@ -80,6 +83,12 @@
 		border-radius: 5px  
 		position: absolute
 		right: 0
+	.field__req
+		color: #CA0813
+		font-size: 16px  
+		margin-left: 3px 
+	&.field_spaced
+		margin-bottom: 20px 
 	&.field_border
 		border-bottom: 1px dashed #CCC 
 		padding: 17px 0  23px 0
@@ -179,14 +188,116 @@
 	dd
 		font-size: 14px 
 		margin-bottom: 10px 
+.pitems
+	font-size: 0
+	border-bottom: 1px dashed #ccc  
 
+.prods
+	border-spacing: 0
+	border-collapse: collapse 
+	width: 100%
+	thead
+		th
+			text-align: left
+			font-weight: normal
+			vertical-align: top
+			padding-bottom: 6px 
+			border-bottom: 1px solid #CCC 
+			font-size: 12px 
+			+b
+			text-transform: uppercase
+			span
+				+m
+				display: block
+				font-size: 11px 
+	tbody
+		td,th
+			border-bottom: 1px dashed #999 
+			padding: 9px 0
+			text-align: left
+		img
+			float: left
+			margin-right: 10px 
+		h3
+			font-size: 16px 
+			font-weight: normal
+			color: #333 
+		td
+			width: 100px 
+			vertical-align: top
+	.prods__remove
+		+s(removepurple)
+		float: right
+		cursor: pointer
+	&.prods_done
+		tbody
+			tr:last-child
+				td,th
+					border: none
+			span
+				display: block
+				font-size: 14px 
+				color: #666666
+				margin-bottom: 2px  
+.number
+	display: inline-block
+	position: relative
+	.number__input
+		border: 1px solid #CCC 
+		height: 28px 
+		width: 30px 
+		padding: 0 0 0 8px
+	.number__plus,.number__minus
+		position: absolute
+		width: 21px 
+		height: 15px 
+		border-bottom: 1px solid #B8B8B8 
+		background: #CCC
+		right: -21px 
+		top: 0 
+		cursor: pointer
+		&:hover
+			background: #aaa 
+		i
+			+s(plus1)
+			position: absolute
+			left: 6px 
+			top: 4px 
+	.number__minus
+		top: 16px 
+		height: 13px 
+		border-bottom: none 
+		border-top: 1px solid #D9D9D9 
+		i
+			+s(minus1)
+			top: 5px 
 
-
-
-
-
-
-
+.b__edit
+	position: absolute
+	right: 0
+	margin-top: 3px 
+	text-transform: uppercase
+	font-size: 13px  
+	color: #7A286D
+	text-decoration: none 
+	right: 15px 
+.showmore
+	border-top: 1px solid #F2F2F2
+	text-align: center
+	margin-top: 12px 
+	div
+		display: inline-block
+		cursor: pointer
+		font-size: 12px 
+		color: #7A286D
+		border-radius: 3px
+		padding: 0 13px
+		height: 24px   
+		line-height: 24px
+		text-transform: uppercase
+		position: relative
+		top: -12px  
+		background: #F2F2F2 
 
 
 
