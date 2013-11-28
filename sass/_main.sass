@@ -621,13 +621,50 @@
 
 .presentation
 	p
-		margin-bottom: 1em
+		margin-bottom: .6em
 
 .map
 	border: 3px solid #ececec
 	background: #ececec
 	.map__area
 		height: 400px
+		background-color: #fff
+	.map__legends
+		padding: 12px 10px
+		font-size: 14px
+		color: #070707
+		margin-left: 17px
+		li
+			position: relative
+			min-height: 20px
+			margin-top: 10px
+			padding-left: 30px
+			&:first-child
+				margin-top: 0
+		.icon
+			position: absolute
+			top: 0
+			left: 0
+			content: ""
+			&.icon_square
+				width: 20px
+				height: 20px
+				background: #7b246e
+				&.icon_square_light
+					background: #c391bb
+			&.icon_circle
+				top: 3px
+				left: 4px
+				border: 1px solid #999
+				+border-radius(50%)
+				+box-shadow(0 0 4px rgba(0,0,0,.38))
+				width: 10px
+				height: 10px
+				&.icon_circle_yellow
+					background-color: #ffcb00
+				&.icon_circle_green
+					background-color: #65cb33
+
 
 
 

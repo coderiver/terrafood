@@ -359,10 +359,19 @@ body { background: url(../img/bg.png) no-repeat 50% 84px; }
 .prod-slider .prod-slider__nav.prod-slider__nav_next { right: 0; background: url('../img/icons-s6efef3d30b.png') 0 -132px no-repeat; width: 11px; height: 20px; }
 .prod-slider .prod-slider__nav.prod-slider__nav_next:hover { background: url('../img/icons-s6efef3d30b.png') 0 -162px no-repeat; width: 11px; height: 20px; }
 
-.presentation p { margin-bottom: 1em; }
+.presentation p { margin-bottom: 0.6em; }
 
 .map { border: 3px solid #ececec; background: #ececec; }
-.map .map__area { height: 400px; }
+.map .map__area { height: 400px; background-color: white; }
+.map .map__legends { padding: 12px 10px; font-size: 14px; color: #070707; margin-left: 17px; }
+.map .map__legends li { position: relative; min-height: 20px; margin-top: 10px; padding-left: 30px; }
+.map .map__legends li:first-child { margin-top: 0; }
+.map .map__legends .icon { position: absolute; top: 0; left: 0; content: ""; }
+.map .map__legends .icon.icon_square { width: 20px; height: 20px; background: #7b246e; }
+.map .map__legends .icon.icon_square.icon_square_light { background: #c391bb; }
+.map .map__legends .icon.icon_circle { top: 3px; left: 4px; border: 1px solid #999999; -webkit-border-radius: 50%; -moz-border-radius: 50%; -ms-border-radius: 50%; -o-border-radius: 50%; border-radius: 50%; -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.38); -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.38); box-shadow: 0 0 4px rgba(0, 0, 0, 0.38); width: 10px; height: 10px; }
+.map .map__legends .icon.icon_circle.icon_circle_yellow { background-color: #ffcb00; }
+.map .map__legends .icon.icon_circle.icon_circle_green { background-color: #65cb33; }
 
 .textual { font-size: 16px; line-height: 1.4; margin-bottom: 30px; }
 .textual p { margin-bottom: 1em; }
