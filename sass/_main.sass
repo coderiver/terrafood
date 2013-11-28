@@ -30,11 +30,12 @@
 	font-size: 21px
 	color: #000
 	line-height: 1
-	font-weight: bold
+	font-weight: normal
+	+b
 	text-transform: uppercase
 	margin-bottom: 20px
 	+r(step2)
-		font-size: 13px 
+		font-size: 13px
 	b
 		display: inline-block
 		padding-bottom: 8px
@@ -50,9 +51,20 @@
 		background: #e3e3e3
 		content: ""
 	&.title_alt
-		text-transform: none 
+		text-transform: none
 		+b
 		font-weight: normal
+
+.title-2
+	font-size: 18px
+	font-weight: normal
+	+b
+
+.title-3
+	font-size: 16px
+	font-weight: normal
+	+b
+
 .catalog
 	font-size: 16px
 	color: #333
@@ -183,6 +195,12 @@
 	padding-bottom: 7px
 	margin-bottom: 7px
 	border-bottom: 1px dashed #ccc
+	&.data_mod
+		padding-bottom: 0
+		margin-bottom: 0
+		border: 0
+		.data__item
+			width: 49.2%
 	.data__item
 		line-height: 1
 		float: left
@@ -326,14 +344,14 @@
 			margin-top: 0
 	.items__thumb
 		float: left
-		width: 35%
 		margin-right: 3.8%
-		min-height: 30px
+		overflow: hidden
 		background: #ebebeb
 		+border-radius(3px)
 		img
 			display: block
-			max-width: 100%
+			max-width: 90px
+			min-height: 90px
 			margin-left: 0
 			margin-right: 0
 			+border-radius(3px)
@@ -434,20 +452,172 @@
 		display: none
 
 
+.about
+	margin-bottom: 45px
+	.about__list
+		li
+			position: relative
+			margin-bottom: 0.5em
+			padding-left: 20px
+			&:before
+				position: absolute
+				top: 9px
+				left: 5px
+				+s(l-arr)
+				content: ""
+			p
+				margin-bottom: 0
+	.article
+		margin-top: 25px
+		& > p
+			margin-left: 10px
+
+
+.infograph
+	+clr
+	margin-top: 25px
+	margin-bottom: 6px
+	.infograph__col
+		float: right
+		width: 48.5%
+		&:first-child
+			float: left
+	.infograph__list
+		li
+			+clr
+			margin-top: 25px
+			&:first-child
+				margin-top: 0
+	.infograph__place
+		float: left
+		width: 60px
+		text-align: right
+		margin-right: 8px
+		span
+			position: relative
+			display: inline-block
+			background: #7b246e
+			color: #fff
+			font-size: 28px
+			font-weight: normal
+			min-width: 40px
+			text-align: center
+			+box-sizing(border-box)
+			+b
+			padding: 2px 5px
+			line-height: 1
+			&:after
+				position: absolute
+				bottom: -6px
+				left: 0
+				right: 0
+				height: 6px
+				content: ""
+				background: url("../img/icons/pl-arr.png")
+				+background-size(100% 100%)
+			sup
+				display: inline-block
+				vertical-align: top
+				font-size: 14px
+				padding-top: 4px
+	.infograph__text
+		overflow: hidden
+		line-height: 1
+		margin-top: 2px
+		padding-right: 15%
+	.infograph__absolute
+		display: inline-block
+		+s(pl-abs)
 
 
 
+.key-brands
+	.key-brands__top
+		position: relative
+		.title
+			padding-right: 150px
+	.key-brands__more
+		text-transform: uppercase
+		position: absolute
+		right: 0
+		top: 5px
+		font-size: 13px
+	.key-brands__list
+		+clr
+		margin-bottom: 40px
+		li
+			float: left
+			width: 33.3%
+			margin-bottom: 25px
+	.key-brands__logo
+		display: table-cell
+		vertical-align: middle
+		height: 107px
+		width: 33.3%
+		text-align: center
+		padding: 0 10%
+		a
+			display: inline-block
+			height: 100%
+		img
+			display: inline-block
+			max-width: 100%
 
-
-
-
-
-
-
-
-
-
-
+.prod-slider
+	.prod-slider__top
+		position: relative
+		.title
+			padding-right: 150px
+	.prod-slider__more
+		text-transform: uppercase
+		position: absolute
+		right: 0
+		top: 5px
+		font-size: 13px
+	.prod-slider__content
+		+clr
+	.prod-slider__item
+		overflow: hidden
+		width: 100%
+		padding: 0 30px
+		+box-sizing(border-box)
+		+clr
+	.prod-slider__image
+		float: left
+		margin-right: 3.8%
+		width: 28.6%
+		width: 160px
+		margin-right: 20px
+		img
+			display: block
+			max-width: 100%
+	.prod-slider__info
+		overflow: hidden
+	.prod-slider__title
+		font-weight: normal
+		font-size: 18px
+		margin-bottom: 10px
+		padding-bottom: 10px
+		border-bottom: 1px dashed #ccc
+		strong
+			+b
+	.prod-slider__nav
+		position: absolute
+		top: 50%
+		margin-top: -10px
+		z-index: 1000
+		+hidetext
+		&.prod-slider__nav_prev
+			left: 0
+			+s(nav)
+			+rotate(180)
+			&:hover
+				+s(nav_h)
+		&.prod-slider__nav_next
+			right: 0
+			+s(nav)
+			&:hover
+				+s(nav_h)
 
 
 
