@@ -1,0 +1,108 @@
+.contact
+	.title
+		margin-top: 40px
+		margin-bottom: 0
+		&.title_mod
+			margin-top: 0
+	.contact__fields
+		position: relative
+		border-bottom: 1px dashed #CCC
+		padding: 25px 0 25px 0
+		&.is-active
+			.contact__map
+				display: block
+			.contact__hide
+				i
+					+rotate(0)
+		.contact__row
+			padding-left: 30px
+			a
+				-ms-text-overflow: ellipsis
+				text-overflow: ellipsis
+				white-space: nowrap
+				overflow: hidden
+		.contact__row_address
+			position: relative
+			margin-right: 145px
+			font-size: 16px
+			color: #000
+			line-height: 1
+			display: inline-block
+		.contact__row_phone
+			position: relative
+			font-size: 21px
+			color: #000
+			p
+				font-size: 13px
+				text-transform: uppercase
+				color: #333
+		.contact__row_mail
+			position: relative
+			color: #666
+			font-size: 13px
+			text-transform: uppercase
+			a
+				text-transform: lowercase
+				font-size: 16px
+				line-height: 1.2
+				display: block
+		.contact__row_link
+			position: relative
+			font-size: 16px
+		.contact__row_print
+			position: relative
+			font-size: 21px
+			color: #000
+		.contact__row_cols
+			+clr
+			li
+				float: left
+				width: 50%
+
+		.contact__map
+			margin-top: 15px
+			border: 1px solid #fff
+			+box-shadow(0 0 0 3px #f2f2f2)
+			display: none
+			img
+				display: block
+				max-width: 100%
+				margin-right: auto
+				margin-left: auto
+		.contact__hide
+			position: absolute
+			right: 0
+			top: 26px
+			padding-right: 27px
+			font-size: 13px
+			text-transform: uppercase
+			text-decoration: none
+			i
+				float: right
+				margin-right: -27px
+				margin-top: -2px
+				+rotate(180)
+				display: block
+				+s(arr-collapse)
+				opacity: .8
+			&:hover
+				i
+					opacity: 1
+		.contact__icon
+			position: absolute
+			left: 0
+			&.contact__icon_add
+				margin-top: 0
+				+s(address_pic)
+			&.contact__icon_mail
+				+s(mail_cont)
+				margin-top: 5px
+			&.contact__icon_phone
+				+s(phone_pic)
+				margin-top: 5px
+			&.contact__icon_print
+				+s(print_cont)
+				margin-top: 8px
+			&.contact__icon_link
+				+s(cont__url)
+				margin-top: 3px
