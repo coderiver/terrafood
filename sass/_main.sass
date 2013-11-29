@@ -190,6 +190,50 @@
 				font-size: 16px
 				line-height: 1
 
+.items-cols
+	.items-cols__list
+		+clr
+		margin-top: 20px
+		li
+			float: left
+			width: 32.3%
+			text-align: center
+			margin-left: 1.5%
+			&:first-child
+				margin-left: 0
+			&:hover
+				a
+					text-decoration: underline
+			a
+				display: block
+				height: 100%
+				text-decoration: none
+			p
+				margin-bottom: 0
+				font-size: 16px
+				line-height: 1
+			.items-cols__thumb
+				position: relative
+				border: 3px solid #f1f1f1
+				+box-shadow(inset 0 0 0 2px #fff)
+				margin-bottom: 3px
+				img
+					position: relative
+					display: block
+					width: 100%
+					z-index: -1
+					margin-right: auto
+					margin-left: auto
+
+.icon-play
+	position: absolute
+	top: 50%
+	left: 50%
+	margin-top: -29px
+	margin-left: -29px
+	+s(btn_play)
+
+
 .data
 	+clr
 	padding-bottom: 7px
@@ -221,6 +265,16 @@
 			color: #000
 
 .plant
+	&.plant_small
+		.plant__thumb
+			width: 32.3%
+		.plant__item
+			p
+				font-size: 14px
+				margin-bottom: 0.5em
+		.plant__title
+			font-size: 16px
+			margin-bottom: 0.5em
 	.plant__item
 		margin-top: 25px
 		+clr
@@ -237,7 +291,7 @@
 	.plant__thumb
 		float: left
 		width: 35.5%
-		min-height: 30px
+		min-height: 1px
 		margin-right: 3%
 		+box-sizing(border-box)
 		border: 3px solid #f1f1f1
@@ -283,6 +337,8 @@
 	margin-bottom: 40px
 	ul
 		+clr
+		// display: table
+		// table-layout: fixed
 	li
 		position: relative
 		text-transform: uppercase
@@ -292,7 +348,8 @@
 		line-height: 1
 		font-size: 14px
 		font-weight: bold
-		padding: 16px 0
+		height: 60px
+		line-height: 60px
 		&:before
 			position: absolute
 			bottom: 0
@@ -316,6 +373,9 @@
 			&:after
 				content: none
 	a
+		line-height: 1
+		display: inline-block
+		vertical-align: middle
 		text-decoration: none
 		color: #000
 
@@ -372,7 +432,6 @@
 			text-decoration: none
 			&:hover
 				text-decoration: underline
-
 
 .brands
 	margin-top: 30px
@@ -451,7 +510,6 @@
 	.brands__text
 		display: none
 
-
 .about
 	margin-bottom: 45px
 	.about__list
@@ -471,7 +529,6 @@
 		margin-top: 25px
 		& > p
 			margin-left: 10px
-
 
 .infograph
 	+clr
@@ -528,8 +585,6 @@
 	.infograph__absolute
 		display: inline-block
 		+s(pl-abs)
-
-
 
 .key-brands
 	.key-brands__top
@@ -665,10 +720,22 @@
 				&.icon_circle_green
 					background-color: #65cb33
 
+.support
+	.support__text
+		p
+			margin-bottom: 1em
 
 
-
-
+.logo
+	position: absolute
+	bottom: 7px
+	left: 7px
+	&.logo_tulchinka
+		+s(logo_1)
+	&.logo_premialle
+		+s(logo_2)
+	&.logo_tulchin
+		+s(logo_3) 
 
 
 
