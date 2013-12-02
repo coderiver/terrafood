@@ -10,9 +10,8 @@ $(document).ready(function() {
 		$(this).closest('.sproduct').toggleClass('is-showmore')
 	});
 
-	$('.product__nav a').click(function(event) {
-		$('.product__nav a').removeClass('is-active');
-		$(this).addClass('is-active');
+	$('.product__nav').click(function(event) {
+		$(this).find('a').toggleClass('is-active');
 		return false;
 	});
 
