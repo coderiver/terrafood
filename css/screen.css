@@ -91,7 +91,6 @@ body { background: url(../img/bg.png) no-repeat 50% 84px; }
 .lang .list a:first-child { margin: 0; }
 .lang:hover .list { display: block; }
 
-.footer { margin-top: 20px; }
 .footer .footer__in { border-top: 5px solid #a86e9f; padding: 12px 0; }
 .footer .footer__logo { float: left; background: url('../img/icons-s4680937588.png') 0 -284px no-repeat; width: 121px; height: 28px; font: 0/0 a; text-shadow: none; color: transparent; }
 .footer .footer__bot { padding-top: 6px; border-top: 1px dotted black; *zoom: 1; }
