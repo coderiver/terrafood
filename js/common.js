@@ -15,6 +15,45 @@ $(document).ready(function() {
 		return false;
 	});
 
+	$(".js-tabs-pane").removeClass("is-visible");
+	$(".js-tabs-nav li:first").addClass("is-active");
+	$(".js-tabs-pane:first").addClass("is-visible");
+
+	$(".js-tabs-nav li").click(function() {
+		$(".js-tabs-nav li").removeClass("is-active");
+		$(this).addClass("is-active");
+		$(".js-tabs-pane").removeClass("is-visible");
+		var activeTab = $(this).find("a").attr("href");
+		$(activeTab).addClass("is-visible");
+		return false;
+	});
+
+	$('.contact__hide').click(function() {
+		if ($(this).parent().hasClass('is-active')) {
+			$(this).parent().removeClass('is-active');
+			$(this).html('Показать на карте<i></i>');
+		}
+		else {
+			$('.contact__fields').removeClass('is-active');
+			$('.contact__hide').html('Показать на карте<i></i>');
+			$(this).parent().addClass('is-active');
+			$(this).html('Скрыть карту<i></i>');
+		}
+		return false;
+	});
+
+	jQuery('body').click(function(event) {
+		jQuery('.popup').addClass('is-active');
+		jQuery('.overlay').addClass('is-active');
+		return false;
+	});
+	jQuery('.popup__close, .overlay').click(function(event) {
+		jQuery('.popup').removeClass('is-active');
+		jQuery('.overlay').removeClass('is-active');
+		return false;
+	});
+
+
 
 
 	function initMap(maptype, markers, data){
