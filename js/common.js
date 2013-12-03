@@ -39,7 +39,6 @@ $(document).ready(function() {
 			$(this).parent().addClass('is-active');
 			$(this).html('Скрыть карту<i></i>');
 		}
-		return false;
 	});
 
 	$('.brands__btn-collapse').click(function() {
@@ -60,12 +59,10 @@ $(document).ready(function() {
 	jQuery('body').click(function(event) {
 		jQuery('.popup').addClass('is-active');
 		jQuery('.overlay').addClass('is-active');
-		return false;
 	});
 	jQuery('.popup__close, .overlay').click(function(event) {
 		jQuery('.popup').removeClass('is-active');
 		jQuery('.overlay').removeClass('is-active');
-		return false;
 	});
 
 
