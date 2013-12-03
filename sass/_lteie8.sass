@@ -1,4 +1,26 @@
 .lteie8
+	.overlay
+		background: url('../img/popup_bg.png')
+	.popup, .overlay
+		display: none
+		&.is-active
+			display: block
+	.storage__days
+		width: 100%
+		span
+			width: 30%
+	.search__submit
+		background: #6d1f61
+		margin-top: 1px
+		.submit
+			background: #6d1f61
+			border: 0
+			height: 100%
+			color: #fff
+			font-size: 11px
+			text-transform: uppercase
+			&:hover, &:active
+				background: #4c1544
 	.prod-catalog__items
 		ul
 			+clr
@@ -27,13 +49,24 @@
 			*display: inline
 			zoom: 1
 	.product .product__nav
-		padding-bottom: 4px
+		padding-bottom: 5px
 
 	.product .product__nav li,
 	.product .product__nav a
 		*display: inline
 		zoom: 1
 		margin-bottom: -1px
+	.product .product__nav a
+		// display: block
+		// margin-bottom: 2px
+		// background: #FFF
+	.number
+		*display: inline
+		zoom: 1
+		.number__plus
+			margin-top: 1px
+		.number__minus
+			top: 17px
 	.pitem
 		*display: inline
 		zoom: 1
@@ -57,12 +90,17 @@
 	.breadcrumb li
 		*display: inline
 		zoom: 1
+	.tabs .tabs__nav
+		border-bottom: 3px solid #ececec
 	.tabs .tabs__nav li
 		*display: inline
 		zoom: 1
-	.select input
-		border: 0
-		padding: 0
+		background: #fff
+		margin-bottom: -3px
+	.select__input
+		display: none
+	.select__arr
+		display: none
 	.purplebutton
 		*display: inline
 		zoom: 1
