@@ -42,6 +42,16 @@ $(document).ready(function() {
 		return false;
 	});
 
+	$('.brands__btn-collapse').click(function() {
+		if ($(this).parents('.brands__item').hasClass('is-active')) {
+			$(this).parents('.brands__item').removeClass('is-active');
+		}
+		else {
+			$('.brands__item').removeClass('is-active');
+			$(this).parents('.brands__item').addClass('is-active');
+		}
+	});
+
 	jQuery('body').click(function(event) {
 		jQuery('.popup').addClass('is-active');
 		jQuery('.overlay').addClass('is-active');
