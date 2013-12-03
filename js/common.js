@@ -52,6 +52,11 @@ $(document).ready(function() {
 		}
 	});
 
+	$('.showmore').click(function() {
+		$('.prods_done tr').removeClass('is-hidden');
+		$(this).css('display', 'none');
+	});
+
 	jQuery('body').click(function(event) {
 		jQuery('.popup').addClass('is-active');
 		jQuery('.overlay').addClass('is-active');

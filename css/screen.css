@@ -640,13 +640,14 @@ body { background: url(../img/bg.png) no-repeat 50% 84px; }
 .prods { border-spacing: 0; border-collapse: collapse; width: 100%; }
 .prods thead th { text-align: left; font-weight: normal; vertical-align: top; padding-bottom: 6px; border-bottom: 1px solid #cccccc; font-size: 12px; font-family: "PT Sans", sans-serif; font-weight: 700; font-style: normal; text-transform: uppercase; }
 .prods thead th span { font-family: "PT Sans", sans-serif; font-weight: 400; font-style: normal; display: block; font-size: 11px; }
-.prods tbody td, .prods tbody th { border-bottom: 1px dashed #999999; padding: 9px 0; text-align: left; }
+.prods tbody td, .prods tbody th { border-top: 1px dashed #999999; padding: 9px 0; text-align: left; }
 .prods tbody img { float: left; margin-right: 10px; }
 .prods tbody h3 { font-size: 16px; font-weight: normal; color: #333333; }
 .prods tbody td { width: 100px; vertical-align: top; }
 .prods .prods__remove { background: url('../img/icons-sf5f4e56c34.png') 0 -1412px no-repeat; width: 7px; height: 7px; float: right; cursor: pointer; }
-.prods.prods_done tbody tr:last-child td, .prods.prods_done tbody tr:last-child th { border: none; }
-.prods.prods_done tbody th.last-child { border: none; }
+.prods.prods_done tbody tr.is-hidden { display: none; }
+.prods.prods_done tbody tr:first-child td, .prods.prods_done tbody tr:first-child th { border: none; }
+.prods.prods_done tbody th.first-child { border: none; }
 .prods.prods_done tbody span { display: block; font-size: 14px; color: #666666; margin-bottom: 2px; }
 
 .number { display: inline-block; position: relative; }

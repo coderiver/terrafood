@@ -221,7 +221,7 @@
 				font-size: 11px 
 	tbody
 		td,th
-			border-bottom: 1px dashed #999 
+			border-top: 1px dashed #999 
 			padding: 9px 0
 			text-align: left
 		img
@@ -240,10 +240,12 @@
 		cursor: pointer
 	&.prods_done
 		tbody
-			tr:last-child
+			tr.is-hidden
+				display: none
+			tr:first-child
 				td,th
 					border: none
-			th.last-child
+			th.first-child
 				border: none
 			span
 				display: block
