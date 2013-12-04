@@ -12,6 +12,7 @@ $(document).ready(function() {
 
 	$('.product__nav').click(function(event) {
 		$(this).find('a').toggleClass('is-active');
+		$('.'+$(this).data('target')).toggle();
 		return false;
 	});
 
