@@ -65,7 +65,7 @@ body { background: url(../img/bg.png) no-repeat 50% 84px; }
 .menu-top { margin: 0 120px 0 5px; padding: 0 1px 0 0; position: relative; z-index: 100; }
 .menu-top a { text-decoration: none; }
 .menu-top ul, .menu-top li { margin: 0; padding: 0; background: none; }
-.menu-top > ul > li > a { color: white; font-size: 15px; line-height: 15px; text-transform: uppercase; display: block; padding: 17px 13px; }
+.menu-top > ul > li > a { color: white; font-size: 15px; line-height: 15px; text-transform: uppercase; display: block; padding: 17px 10px; }
 .menu-top > ul > li:hover > a { background: white; border-left: 1px solid #cbcbcb; margin-right: -1px; color: black; text-decoration: none; }
 .menu-top > ul > li { float: left; position: relative; }
 .menu-top > ul > li > ul { float: left; }
@@ -77,6 +77,9 @@ body { background: url(../img/bg.png) no-repeat 50% 84px; }
 .menu-top .sub .cont { margin: 0 0 0 170px; border-left: 1px dotted black; padding: 0 0 0 15px; }
 .menu-top .sub img { border: 3px solid #cfcfcf; }
 .menu-top li:hover .sub { display: block; }
+.menu-top .globalnav { text-align: justify; text-justify: newspaper; }
+.menu-top .globalnav > li { margin: 0; display: inline-block; }
+.menu-top .globalnav > li.helper { width: 100%; height: 0px; visibility: hidden; overflow: hidden; }
 
 .lang { position: relative; float: right; border-left: 1px solid #73446c; margin: 12px 15px 0; font-size: 13px; }
 .lang .lang__arr { background: url('../img/icons-sf5f4e56c34.png') 0 -1476px no-repeat; width: 11px; height: 11px; display: inline-block; margin-left: 7px; vertical-align: middle; position: relative; z-index: 200; top: -2px; }
