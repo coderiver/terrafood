@@ -517,13 +517,14 @@
 			border: 2px solid #a96da0
 			.brands__btn-collapse
 				i
+					// +s(arr-collapse-active)
 					opacity: 1
 		&.is-active
 			.brands__text
 				display: block
 			.brands__btn-collapse
 				i
-					+rotate(0)
+					+s(arr-collapse-active)
 	.brands__logo
 		float: left
 		width: 22.5%
@@ -576,7 +577,6 @@
 			margin-left: 5px
 			margin-top: -3px
 			+s(arr-collapse)
-			+rotate(180)
 			opacity: 0.8
 		&:hover
 			cursor: pointer
@@ -765,10 +765,9 @@
 		+hidetext
 		&.prod-slider__nav_prev
 			left: 0
-			+s(nav)
-			+rotate(180)
+			+s(nav_prev)
 			&:hover
-				+s(nav_h)
+				+s(nav_prev_h)
 		&.prod-slider__nav_next
 			right: 0
 			+s(nav)
