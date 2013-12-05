@@ -377,10 +377,10 @@ body { background: url(../img/bg.png) no-repeat 50% 84px; }
 .key-brands .key-brands__top .title { padding-right: 150px; }
 .key-brands .key-brands__more { text-transform: uppercase; position: absolute; right: 0; top: 5px; font-size: 13px; }
 @media only screen and (max-width: 760px) { .key-brands .key-brands__more { font-size: 10px; } }
-.key-brands .key-brands__list { *zoom: 1; margin-bottom: 40px; }
+.key-brands .key-brands__list { *zoom: 1; margin-bottom: 40px; font-size: 0; }
 .key-brands .key-brands__list:before, .key-brands .key-brands__list:after { content: " "; display: table; }
 .key-brands .key-brands__list:after { clear: both; }
-.key-brands .key-brands__list li { float: left; width: 33.3%; margin-bottom: 25px; }
+.key-brands .key-brands__list li { display: inline-block; width: 33.3%; margin-bottom: 25px; }
 @media only screen and (max-width: 760px) { .key-brands .key-brands__list li { width: 50%; } }
 @media only screen and (max-width: 550px) { .key-brands .key-brands__list li { width: 100%; } }
 .key-brands .key-brands__logo { display: table-cell; vertical-align: middle; height: 107px; width: 33.3%; text-align: center; padding: 0 10%; }
