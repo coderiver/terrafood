@@ -723,7 +723,7 @@ body { background: url(../img/bg1.png) no-repeat 50% 84px; }
 .weight ul { list-style: none; font-size: 0; display: inline; zoom: 1; display: inline-block; zoom: 1; zoom-display: inline-block; }
 .weight ul li { display: inline; }
 .weight ul a { display: inline; zoom: 1; display: inline-block; min-width: 46px; text-align: center; height: 21px; line-height: 21px; padding: 0 5px; font-size: 14px; color: black; border-radius: 20px; border: 2px solid #a86e9f; margin-right: 10px; text-decoration: none; }
-.weight ul a.is-active { background: #7a276d; border-color: #7a276d; color: white; }
+.weight ul a.is-active, .weight ul a:hover { background: #7a276d; border-color: #7a276d; color: white; }
 
 .product__items { font-size: 0; }
 
