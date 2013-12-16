@@ -1,4 +1,16 @@
 $(document).ready(function() {
+
+
+// .print
+// .print__drop
+$( ".print" )
+  .mouseenter(function() {
+    $('.print__drop').fadeIn('fast');
+  })
+  .mouseleave(function() {
+    $('.print__drop').fadeOut('fast');
+  });
+
 	$(".globalnav").tinyNav();
 
 	$('html').addClass('js');

@@ -143,7 +143,6 @@ body { background: url(../img/bg1.png) no-repeat 50% 84px; }
 .print .print__link { font-size: 13px; text-transform: uppercase; color: #333333; cursor: pointer; }
 .print .print__link i { background: url('../img/icons-s089808cbbe.png') 0 -1203px no-repeat; width: 13px; height: 14px; margin-right: 8px; vertical-align: middle; display: inline-block; }
 .print .print__link .print__droparr { display: inline-block; position: relative; background: url('../img/icons-s089808cbbe.png') 0 -1551px no-repeat; width: 8px; height: 5px; margin-left: 6px; position: relative; vertical-align: middle; top: -1px; }
-.print:hover .print__drop { display: block; }
 .print .print__drop { border: 2px solid #7b236d; border-radius: 4px; background: white; position: absolute; top: 13px; right: -22px; width: 130px; display: none; }
 .print .print__drop i { position: absolute; right: 10px; top: -6px; background: url('../img/icons-s089808cbbe.png') 0 -782px no-repeat; width: 12px; height: 6px; }
 .print .print__drop ul { list-style: none; position: relative; z-index: 10; }
