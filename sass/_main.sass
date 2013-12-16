@@ -442,6 +442,7 @@
 		vertical-align: middle
 		text-decoration: none
 		color: #000
+		padding: 0 10px 
 
 .b_alt
 	.b__head
@@ -604,6 +605,8 @@
 		margin-top: 25px
 		& > p
 			margin-left: 10px
+			margin-bottom: 15px 
+			
 
 .infograph
 	+clr
@@ -984,6 +987,9 @@
 		color: #000
 		text-transform: uppercase
 		min-height: 85px
+		small
+			+m
+			font-size: 18px
 	.front-slider__item-head
 		font-size: 18px
 	.front-slider__brands
@@ -1149,7 +1155,7 @@
 		position: relative
 		text-align: center
 		height: 65px
-		background: url("../img/bg-fr.png")
+		background: url("../img/bg-fr1.png")
 		+background-size(100% 100%)
 		+r(step3)
 			background: none
@@ -1160,11 +1166,13 @@
 			position: absolute
 			bottom: -20px
 			left: 50%
-			margin-left: -100px
+			margin-left: -80px
 			.button
 				display: inline-block
 				padding: 0
-				width: 200px
+				width: 160px
+				height: 35px 
+				line-height: 37px 
 				text-decoration: none
 
 
@@ -1242,8 +1250,10 @@
 		margin-right: 10px
 		border: 1px solid #dbdbdb
 		+border-radius(3px)
-		width: 70px
-		height: 50px
+		// width: 70px
+		// height: 50px
+		max-width: 150px 
+		padding: 5px  
 		+box-sizing(border-box)
 		+r(step3)
 			display: none

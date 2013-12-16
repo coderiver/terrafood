@@ -98,10 +98,11 @@
 			display: inline
 			zoom: 1
 			display: inline-block
-			width: 46px 
+			min-width: 46px 
 			text-align: center
 			height: 21px 
 			line-height: 21px
+			padding: 0 5px 
 			font-size: 14px  
 			color: #000
 			border-radius: 20px
@@ -137,6 +138,7 @@
 		text-align: center
 		height: 116px 
 		line-height: 116px
+		overflow: hidden
 		img
 			margin: auto
 			vertical-align: middle
@@ -203,11 +205,17 @@
 		list-style: none
 		text-align: right
 		padding-right: 20px 
+		font-size: 0 
 		+r(step2)
 			position: relative
 			text-align: left
 		li
 			display: inline-block
+			vertical-align: baseline
+			min-height: 69px 
+			span
+				display: block
+				white-space: nowrap
 			i
 				display: inline-block
 		.product__navmonolit
@@ -226,10 +234,12 @@
 			text-transform: uppercase
 			text-align: center
 			display: inline-block
-			width: 74px  
+			min-width: 58px  
 			text-decoration: none
 			border: 3px solid transparent 
 			padding-top: 7px 
+			padding-left: 3px 
+			padding-right: 3px 
 			position: relative
 			top: 6px 
 			vertical-align: baseline
