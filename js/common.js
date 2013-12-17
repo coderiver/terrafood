@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-
+$('.list li:last-child').addClass("lastchild");
 // .print
 // .print__drop
 $( ".print" )
