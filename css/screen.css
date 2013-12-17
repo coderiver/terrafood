@@ -47,7 +47,7 @@ body { background: url(../img/bg1.png) no-repeat 50% 84px; }
 .header .search { float: right; margin: 30px 20px 0 0; position: relative; width: 200px; border-radius: 3px; -webkit-box-shadow: 0 1px 0 #af7da7; -moz-box-shadow: 0 1px 0 #af7da7; box-shadow: 0 1px 0 #af7da7; }
 @media only screen and (max-width: 550px) { .header .search { width: 150px; } }
 .header .search .search__icon { background: url('../img/icons-s089808cbbe.png') 0 -1227px no-repeat; width: 13px; height: 13px; position: absolute; left: 8px; top: 8px; }
-.header .search .search__input { width: 112px; padding-left: 27px; border-radius: 3px 0 0 3px; background: #b081a9; border: 1px solid #480d3e; border-right: none; height: 28px; font-size: 13px; }
+.header .search .search__input { width: 112px; padding-left: 27px; border-radius: 3px 0 0 3px; background: #b081a9; border: 1px solid #480d3e; border-right: none; height: 28px; font-size: 13px; line-height: 28px; }
 .header .search .search__input:-moz-placeholder { color: #603b5b; }
 .header .search .search__input::-webkit-input-placeholder { color: #603b5b; }
 @media only screen and (max-width: 550px) { .header .search .search__input { width: 62px; } }
