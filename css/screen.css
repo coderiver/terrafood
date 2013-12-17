@@ -598,7 +598,7 @@ body { background: url(../img/bg1.png) no-repeat 50% 84px; }
 .textual ul { margin: 1em 2em; list-style-type: disc; }
 .textual ul li { margin-bottom: 3px; }
 
-.purplebutton { border: 1px solid #7b236d; border-radius: 5px; background-color: #823176; -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.32); -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.32); box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.32); background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #8f3b82), color-stop(100%, #69225d)); background-image: -webkit-linear-gradient(#8f3b82, #69225d); background-image: -moz-linear-gradient(#8f3b82, #69225d); background-image: -o-linear-gradient(#8f3b82, #69225d); background-image: linear-gradient(#8f3b82, #69225d); display: inline-block; cursor: pointer; color: #fefefe; font-size: 13px; font-family: "PT Sans", sans-serif; font-weight: 700; font-style: normal; text-transform: uppercase; height: 37px; line-height: 37px; padding: 0 23px; }
+.purplebutton { border: 1px solid #7b236d; border-radius: 5px; background-color: #823176; -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.32); -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.32); box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.32); background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #8f3b82), color-stop(100%, #69225d)); background-image: -webkit-linear-gradient(#8f3b82, #69225d); background-image: -moz-linear-gradient(#8f3b82, #69225d); background-image: -o-linear-gradient(#8f3b82, #69225d); background-image: linear-gradient(#8f3b82, #69225d); display: inline-block; cursor: pointer; color: #fefefe; font-size: 13px; font-family: "PT Sans", sans-serif; font-weight: 700; font-style: normal; text-transform: uppercase; height: 37px; line-height: 37px; padding: 0 23px; text-decoration: none; }
 .purplebutton:hover { background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #b16ba8), color-stop(100%, #8d4a80)); background-image: -webkit-linear-gradient(#b16ba8, #8d4a80); background-image: -moz-linear-gradient(#b16ba8, #8d4a80); background-image: -o-linear-gradient(#b16ba8, #8d4a80); background-image: linear-gradient(#b16ba8, #8d4a80); }
 .purplebutton:active { background: #935289; }
 
@@ -611,7 +611,7 @@ body { background: url(../img/bg1.png) no-repeat 50% 84px; }
 .actonproduct .purplebutton { float: right; }
 @media only screen and (max-width: 550px) { .actonproduct .purplebutton { float: none; margin-left: 5px; } }
 
-.add { border: 2px solid #a96d9f; border-radius: 5px; display: inline-block; padding: 0 18px 0 33px; color: #333333; font-size: 13px; font-family: "PT Sans", sans-serif; font-weight: 700; font-style: normal; text-transform: uppercase; height: 36px; line-height: 36px; cursor: pointer; position: relative; }
+.add { border: 2px solid #a96d9f; border-radius: 5px; display: inline-block; padding: 0 18px 0 33px; color: #333333; font-size: 13px; font-family: "PT Sans", sans-serif; font-weight: 700; font-style: normal; text-transform: uppercase; height: 36px; line-height: 36px; cursor: pointer; position: relative; text-decoration: none; }
 .add i { position: absolute; left: 10px; top: 50%; margin-top: -6px; background: url('../img/icons-s089808cbbe.png') 0 -1601px no-repeat; width: 11px; height: 11px; }
 .add:hover { color: #7b236d; border-color: #69215d; }
 
