@@ -5,10 +5,10 @@ $('.list li:last-child').addClass("lastchild");
 // .print__drop
 $( ".print" )
   .mouseenter(function() {
-    $('.print__drop').fadeIn('fast');
+    $('.print__drop').show('fast');
   })
   .mouseleave(function() {
-    $('.print__drop').fadeOut('fast');
+    $('.print__drop').hide('fast');
   });
 
 	$(".globalnav").tinyNav();

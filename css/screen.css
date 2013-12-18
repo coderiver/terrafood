@@ -535,6 +535,8 @@ body { background: url(../img/bg1.png) no-repeat 50% 84px; }
 .popup .popup__title { font-size: 27px; line-height: 1; font-family: "PT Sans", sans-serif; font-weight: 700; font-style: normal; margin-bottom: 0.5em; }
 @media only screen and (max-width: 550px) { .popup .popup__title { font-size: 20px; } }
 
+.popup .plist__list { max-height: 240px; overflow: auto; }
+
 .plist .plist__list { margin-bottom: 20px; }
 .plist .plist__item { position: relative; *zoom: 1; margin-bottom: 10px; padding-bottom: 10px; border-bottom: 1px dashed #999999; }
 .plist .plist__item:before, .plist .plist__item:after { content: " "; display: table; }
