@@ -512,7 +512,7 @@ body { background: url(../img/bg1.png) no-repeat 50% 84px; }
 .prod-catalog .prod-catalog__items li:first-child:before { margin-left: -8px; }
 .prod-catalog .prod-catalog__items li:first-child:after { content: none; }
 .prod-catalog .prod-catalog__items li:before { position: absolute; bottom: -5px; left: 50%; margin-left: -11px; background: url('../img/icons-s089808cbbe.png') 0 -962px no-repeat; width: 19px; height: 5px; content: ""; }
-.prod-catalog .prod-catalog__items li:after { position: absolute; top: 30px; height: 3px; width: 20px; right: 100%; z-index: -1; background: #bd91b6; content: ""; }
+.prod-catalog .prod-catalog__items li:after { display: none; position: absolute; top: 30px; height: 3px; width: 20px; right: 100%; z-index: -1; background: #bd91b6; content: ""; }
 @media only screen and (max-width: 550px) { .prod-catalog .prod-catalog__items li:after { content: none; } }
 .prod-catalog .prod-catalog__items li a { display: block; height: 100%; color: white; text-decoration: none; }
 .prod-catalog .prod-catalog__items li a:hover { text-decoration: none; }
