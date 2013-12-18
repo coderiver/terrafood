@@ -150,8 +150,10 @@ body { background: url(../img/bg1.png) no-repeat 50% 84px; }
 .print .print__drop ul a:hover { color: #333333; }
 .print .print__drop ul li:last-child a { border-bottom: none; }
 
+.b_sort { border: 2px solid #a86e9f; }
+
 .sproduct:last-child { margin-bottom: 10px; }
-.sproduct .sproduct__title { background: #f7f7f7; font-size: 16px; font-weight: normal; font-family: "PT Sans", sans-serif; font-weight: 700; font-style: normal; color: black; padding: 6px 0 6px 18px; position: relative; cursor: pointer; border-bottom: 1px solid #a86e9f; }
+.sproduct .sproduct__title { background: #a66f9e; font-size: 16px; font-weight: normal; font-family: "PT Sans", sans-serif; font-weight: 700; font-style: normal; color: white; padding: 6px 0 6px 18px; position: relative; cursor: pointer; border-bottom: 1px solid #a86e9f; }
 .sproduct .sproduct__title i { background: url('../img/icons-s089808cbbe.png') 0 -1519px no-repeat; width: 8px; height: 5px; position: absolute; right: 21px; top: 50%; margin-top: -3px; }
 .sproduct .sproduct__content, .sproduct .sproduct__more { display: none; }
 .sproduct .sproduct__showmore { margin: 20px 0px 0px 0px; text-align: center; }
@@ -703,7 +705,7 @@ body { background: url(../img/bg1.png) no-repeat 50% 84px; }
 .contact .contact__fields .contact__icon.contact__icon_print { background: url('../img/icons-s089808cbbe.png') 0 -1273px no-repeat; width: 20px; height: 17px; margin-top: 8px; }
 .contact .contact__fields .contact__icon.contact__icon_link { background: url('../img/icons-s089808cbbe.png') 0 -1083px no-repeat; width: 17px; height: 17px; margin-top: 3px; }
 
-.h1 { font-family: "PT Sans", sans-serif; font-weight: 700; font-style: normal; font-weight: normal; font-size: 32px; color: black; padding-top: 5px; margin-bottom: 12px; }
+.h1 { font-family: "PT Sans", sans-serif; font-weight: 700; font-style: normal; font-size: 32px; color: black; padding-top: 5px; margin-bottom: 12px; }
 @media only screen and (max-width: 760px) { .h1 { font-size: 20px; line-height: 1.1; } }
 
 .filters { position: relative; margin-bottom: 20px; *zoom: 1; }
