@@ -497,7 +497,7 @@ body { background: url(../img/bg1.png) no-repeat 50% 84px; }
 .place:after { position: absolute; bottom: -6px; left: 0; right: 0; height: 6px; content: ""; background: url("../img/icons/pl-arr.png"); -webkit-background-size: 100% 100%; -moz-background-size: 100% 100%; -o-background-size: 100% 100%; background-size: 100% 100%; }
 .place sup { display: inline-block; vertical-align: top; font-size: 14px; padding-top: 4px; }
 
-.prod-catalog { margin-bottom: 105px; }
+.prod-catalog { margin-bottom: 105px; margin-bottom: 60px; }
 .prod-catalog .prod-catalog__head { overflow: hidden; text-align: center; margin-bottom: 10px; }
 .prod-catalog .prod-catalog__title { text-transform: uppercase; font-size: 21px; font-family: "PT Sans", sans-serif; font-weight: 700; font-style: normal; }
 .prod-catalog .prod-catalog__title span { position: relative; display: inline-block; padding: 0 10px; line-height: 1; }
