@@ -3,7 +3,7 @@
 	padding: 18px 0
 	border: 1px dashed #b7b7b7
 	border-width: 1px 0
-	margin-bottom: 40px
+	margin-bottom: 40px !important
 	li
 		position: relative
 		display: inline-block
@@ -115,6 +115,16 @@
 			+box-sizing(border-box)
 			width: 31%
 			text-align: center
+			
+			span
+				display: inline-block
+				line-height: 30px 
+				white-space: nowrap
+				-ms-text-overflow: ellipsis
+				text-overflow: ellipsis
+				overflow: hidden
+				width: 100% 
+				padding-top: 3px 
 			+r(step3)
 				width: 32%
 				float: left
@@ -284,7 +294,7 @@
 .data
 	+clr
 	padding-bottom: 7px
-	margin-bottom: 7px
+	margin-bottom: 7px !important
 	border-bottom: 1px dashed #ccc
 	&.data_mod
 		padding-bottom: 0

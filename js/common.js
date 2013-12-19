@@ -1,6 +1,11 @@
 $(document).ready(function() {
 
 $('.list li:last-child').addClass("lastchild");
+$('.weight a').click(function(event) {
+	// $(this).parent().parent().find('a').removeClass('is-active');
+	$(this).toggleClass('is-active');
+	return false;
+});
 // .print
 // .print__drop
 $( ".print" )
