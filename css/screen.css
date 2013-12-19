@@ -187,10 +187,9 @@ body { background: url(../img/bg1.png) no-repeat 50% 84px; }
 .breadcrumb a { text-decoration: underline; }
 .breadcrumb a:hover { text-decoration: none; }
 
-.title { position: relative; font-size: 21px; color: #333333; line-height: 1; font-weight: normal; font-family: "PT Sans", sans-serif; font-weight: 700; font-style: normal; text-transform: uppercase; margin-bottom: 20px; }
+.title { position: relative; font-size: 21px; color: #333333; line-height: 1; font-weight: normal; font-family: "PT Sans", sans-serif; font-weight: 700; font-style: normal; text-transform: uppercase; margin-bottom: 20px; border-bottom: 3px solid #e3e3e3; }
 @media only screen and (max-width: 760px) { .title { font-size: 13px; } }
-.title b { display: inline-block; padding-bottom: 8px; border-bottom: 3px solid #7b246e; position: relative; z-index: 10; }
-.title:before { position: absolute; bottom: 0; left: 0; height: 3px; width: 100%; background: #e3e3e3; content: ""; }
+.title b { display: inline-block; vertical-align: baseline; padding-bottom: 8px; border-bottom: 3px solid #7b246e; position: relative; z-index: 10; top: 3px; }
 .title.title_alt { text-transform: none; font-family: "PT Sans", sans-serif; font-weight: 700; font-style: normal; font-weight: normal; }
 .title.title_mod { font-size: 14px; }
 
