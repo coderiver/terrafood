@@ -498,7 +498,7 @@ body { background: url(../img/bg1.png) no-repeat 50% 84px; }
 @media only screen and (max-width: 760px) { .front-slider .front-slider__brands { text-align: center; } }
 .front-slider .front-slider__brands img { float: left; max-width: 100%; margin-right: 20px; }
 @media only screen and (max-width: 760px) { .front-slider .front-slider__brands img { float: none; display: inline-block; } }
-.front-slider .front-slider__brands-text { overflow: hidden; padding-top: 20px; line-height: 1; vertical-align: top; width: 173px; }
+.front-slider .front-slider__brands-text { padding-top: 20px; line-height: 1; vertical-align: top; width: 183px; float: left; position: absolute; left: 180px; }
 @media only screen and (max-width: 760px) { .front-slider .front-slider__brands-text { display: inline-block; } }
 .front-slider .front-slider__brands-text p { vertical-align: top; margin-bottom: 0.5em; }
 
