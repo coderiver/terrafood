@@ -809,7 +809,7 @@ body { background: url(../img/bg1.png) no-repeat 50% 84px; }
 .lteie8 .title { border-bottom: 3px solid #e3e3e3; }
 .lteie8 .title b { position: relative; top: 3px; *display: inline; zoom: 1; }
 .lteie8 .product .product__nav { position: relative; margin-top: 13px; zoom: 1; }
-.lteie8 .product .product__nav li { height: 69px; z-index: 100; position: relative; top: 3px; }
+.lteie8 .product .product__nav li { height: 69px; z-index: 100; position: relative; top: 3px; padding-bottom: 3px; }
 .lteie8 .product .product__nav li, .lteie8 .product .product__nav a { *display: inline; zoom: 1; margin-bottom: -2px; }
 .lteie8 .number { *display: inline; zoom: 1; }
 .lteie8 .number .number__plus { margin-top: 1px; }
