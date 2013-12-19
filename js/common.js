@@ -14,10 +14,10 @@ if( $('.list').length ){
 // .print__drop
 $( ".print" )
   .mouseenter(function() {
-    $('.print__drop').show('fast');
+    $('.print__drop').css('display','block');
   })
   .mouseleave(function() {
-    $('.print__drop').hide('fast');
+    $('.print__drop').css('display','none');
   });
 
 	$(".globalnav").tinyNav();
