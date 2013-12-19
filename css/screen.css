@@ -708,7 +708,7 @@ body { background: url(../img/bg1.png) no-repeat 50% 84px; }
 .contact .contact__fields .contact__row_cols li { float: left; width: 50%; }
 .contact .contact__fields .contact__map { margin-top: 15px; border: 1px solid white; -webkit-box-shadow: 0 0 0 3px #f2f2f2; -moz-box-shadow: 0 0 0 3px #f2f2f2; box-shadow: 0 0 0 3px #f2f2f2; display: none; }
 .contact .contact__fields .contact__map img { display: block; max-width: 100%; margin-right: auto; margin-left: auto; }
-.contact .contact__fields .contact__hide { position: absolute; right: 0; top: 26px; padding-right: 27px; font-size: 13px; text-transform: uppercase; text-decoration: none; }
+.contact .contact__fields .contact__hide { position: absolute; right: 0; top: 26px; padding-right: 27px; font-size: 13px; text-transform: uppercase; text-decoration: none; width: 160px; zoom: 1; }
 .contact .contact__fields .contact__hide i { position: absolute; right: 0; top: 0; -moz-transform: rotate(180deg); -o-transform: rotate(180deg); -webkit-transform: rotate(180deg); -ms-transform: rotate(180deg); transform: rotate(180deg); filter: progid:DXImageTransform.Microsoft.Matrix(M11=$m11, M12=$m12,M21=$m21, M22=$m22, sizingMethod='auto expand'); zoom: 1; display: block; background: url('../img/icons-s9551014eaf.png') 0 -722px no-repeat; width: 20px; height: 20px; opacity: 0.8; display: none; }
 .contact .contact__fields .contact__hide:hover i { opacity: 1; }
 .contact .contact__fields .contact__icon { position: absolute; left: 0; }
