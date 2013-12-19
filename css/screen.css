@@ -765,6 +765,7 @@ body { background: url(../img/bg1.png) no-repeat 50% 84px; }
 .product .product__title { font-size: 21px; font-weight: normal; font-family: "PT Sans", sans-serif; font-weight: 700; font-style: normal; color: black; margin-bottom: 6px; }
 .product .product__info { font-size: 16px; color: #333333; line-height: 1.2; }
 .product .product__navwrap { overflow: hidden; width: 100%; position: absolute; position: absolute; bottom: 0; left: 0; right: 0; overflow: hidden; }
+@media only screen and (max-width: 760px) { .product .product__navwrap { position: relative; text-align: left; } }
 .product .product__nav { bottom: 0; left: 0; border-bottom: 3px solid #ececec; right: 0; list-style: none; text-align: right; padding-right: 20px; font-size: 0; }
 @media only screen and (max-width: 760px) { .product .product__nav { position: relative; text-align: left; } }
 .product .product__nav li { display: inline-block; vertical-align: baseline; min-height: 69px; position: relative; top: 1px; }
