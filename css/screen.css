@@ -810,7 +810,7 @@ body { background: url(../img/bg1.png) no-repeat 50% 84px; }
 .lteie8 .title b { position: relative; top: 3px; *display: inline; zoom: 1; }
 .lteie8 .product .product__nav { position: relative; margin-top: 13px; zoom: 1; }
 .lteie8 .product .product__nav li { height: 69px; z-index: 100; position: relative; top: 3px; }
-.lteie8 .product .product__nav li, .lteie8 .product .product__nav a { *display: inline; zoom: 1; margin-bottom: -1px; }
+.lteie8 .product .product__nav li, .lteie8 .product .product__nav a { *display: inline; zoom: 1; margin-bottom: -2px; }
 .lteie8 .number { *display: inline; zoom: 1; }
 .lteie8 .number .number__plus { margin-top: 1px; }
 .lteie8 .number .number__minus { top: 17px; }
@@ -833,6 +833,6 @@ body { background: url(../img/bg1.png) no-repeat 50% 84px; }
 .lteie8 .lang .list { left: 0; }
 .lteie8 .list li.lastchild { border-bottom: none; }
 .lteie8 .contact .contact__fields .contact__row_address { *display: inline; zoom: 1; }
-.lteie8 .contact__hide { width: 145px; text-align: right; }
+.lteie8 .contact__hide { width: 165px; text-align: right; }
 .lteie8 .contact .contact__fields .contact__hide i { *display: inline; zoom: 1; float: none; margin-left: 5px; }
 .lteie8 .contact .contact__fields .contact__row_cols li { width: 49%; }
