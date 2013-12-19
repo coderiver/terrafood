@@ -1,11 +1,15 @@
 $(document).ready(function() {
 
-$('.list li:last-child').addClass("lastchild");
-$('.weight a').click(function(event) {
+$('.multiple label').click(function(event) {
 	// $(this).parent().parent().find('a').removeClass('is-active');
 	$(this).toggleClass('is-active');
 	return false;
 });
+if( $('.list').length ){
+	$('.list li:last-child').addClass("lastchild");	
+}
+
+
 // .print
 // .print__drop
 $( ".print" )
