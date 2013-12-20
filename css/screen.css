@@ -487,7 +487,7 @@ body { background: url(../img/bg1.png) no-repeat 50% 84px; }
 .front-slider .front-slider__nav { position: absolute; top: 50%; margin-top: -25px; content: ""; font: 0/0 a; text-shadow: none; color: transparent; z-index: 110; }
 .front-slider .front-slider__nav.front-slider__nav_prev { left: 0; background: url('../img/icons-s9551014eaf.png') 0 -464px no-repeat; width: 11px; height: 50px; }
 .front-slider .front-slider__nav.front-slider__nav_next { right: 0; background: url('../img/icons-s9551014eaf.png') 0 -404px no-repeat; width: 11px; height: 50px; }
-.front-slider .front-slider__item { padding: 0 40px 20px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; width: 100%; width: 403px; text-align: center; font-size: 15px; font-family: "PT Sans", sans-serif; font-weight: 700; font-style: normal; color: black; text-transform: uppercase; min-height: 85px; }
+.front-slider .front-slider__item { padding: 0 40px 20px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; width: 100%; width: 403px; text-align: center; font-size: 15px; font-family: "PT Sans", sans-serif; font-weight: 700; font-style: normal; color: black; text-transform: uppercase; min-height: 120px; }
 .front-slider .front-slider__item small { font-family: "PT Sans", sans-serif; font-weight: 400; font-style: normal; font-size: 18px; }
 .front-slider .front-slider__item-head { font-size: 18px; }
 .front-slider .front-slider__brands { text-align: left; *zoom: 1; }
